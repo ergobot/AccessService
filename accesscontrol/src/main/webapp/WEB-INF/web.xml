@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+    <display-name>JAX-RS Simple Service</display-name>
+    <description>JAX-RS Simple Service</description>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>WEB-INF/beans.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>CXFServlet</servlet-name>
+        <servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CXFServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <!--
+ * references: 
+ * https://github.com/kittugit/java
+ * http://stackoverflow.com/questions/16433315/can-i-use-rolesallowed-on-restful-resources-implemented-on-apache-cxf -->
+    
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Rfid Access Service</web-resource-name>
+            <url-pattern>/rfid/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>rfid</role-name>
+        </auth-constraint>
+    </security-constraint>
+    
+<!--      <security-constraint> -->
+<!--         <web-resource-collection> -->
+<!--             <web-resource-name>read</web-resource-name> -->
+<!--             <url-pattern>/queryall/*</url-pattern> -->
+<!--             <url-pattern>/query/*</url-pattern> -->
+<!--         </web-resource-collection> -->
+<!--         <auth-constraint> -->
+<!--             <role-name>read</role-name> -->
+<!--         </auth-constraint> -->
+<!--     </security-constraint> -->
+    
+<!--      <security-constraint> -->
+<!--         <web-resource-collection> -->
+<!--             <web-resource-name>delete</web-resource-name> -->
+<!--             <url-pattern>/delete/*</url-pattern> -->
+<!--         </web-resource-collection> -->
+<!--         <auth-constraint> -->
+<!--             <role-name>delete</role-name> -->
+<!--         </auth-constraint> -->
+<!--     </security-constraint> -->
+    
+<!--      <security-constraint> -->
+<!--         <web-resource-collection> -->
+<!--             <web-resource-name>add</web-resource-name> -->
+<!--             <url-pattern>/add/*</url-pattern> -->
+<!--         </web-resource-collection> -->
+<!--         <auth-constraint> -->
+<!--             <role-name>write</role-name> -->
+<!--         </auth-constraint> -->
+<!--     </security-constraint> -->
+    
+    <login-config>
+        <auth-method>BASIC</auth-method>
+        <realm-name>default</realm-name>
+    </login-config>
+    
+</web-app>

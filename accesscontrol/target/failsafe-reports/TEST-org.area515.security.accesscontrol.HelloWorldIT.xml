@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="org.area515.security.accesscontrol.HelloWorldIT" time="0.138" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/rtxn0378/workspace/accesscontrol"/>
+    <property name="java.runtime.version" value="1.8.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/rtxn0378/workspace/accesscontrol"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/home/rtxn0378/workspace/accesscontrol/target/surefire/surefirebooter6635913676449080834.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/rtxn0378/workspace/accesscontrol/target/test-classes:/home/rtxn0378/workspace/accesscontrol/target/classes:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.0.2/cxf-rt-frontend-jaxrs-3.0.2.jar:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-core/3.0.2/cxf-core-3.0.2.jar:/home/rtxn0378/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar:/home/rtxn0378/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/home/rtxn0378/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.1.0/xmlschema-core-2.1.0.jar:/home/rtxn0378/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/home/rtxn0378/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-rt-transports-http/3.0.2/cxf-rt-transports-http-3.0.2.jar:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-rt-rs-client/3.0.2/cxf-rt-rs-client-3.0.2.jar:/home/rtxn0378/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.6/jackson-core-asl-1.8.6.jar:/home/rtxn0378/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.6/jackson-mapper-asl-1.8.6.jar:/home/rtxn0378/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.6/jackson-jaxrs-1.8.6.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-web/3.2.6.RELEASE/spring-web-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-aop/3.2.6.RELEASE/spring-aop-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-beans/3.2.6.RELEASE/spring-beans-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-context/3.2.6.RELEASE/spring-context-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-expression/3.2.6.RELEASE/spring-expression-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-core/3.2.6.RELEASE/spring-core-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/rtxn0378/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rtxn0378/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rtxn0378/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/rtxn0378/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/rtxn0378/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.16.0-24-generic"/>
+    <property name="user.home" value="/home/rtxn0378"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="rtxn0378"/>
+    <property name="java.class.path" value="/home/rtxn0378/workspace/accesscontrol/target/test-classes:/home/rtxn0378/workspace/accesscontrol/target/classes:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.0.2/cxf-rt-frontend-jaxrs-3.0.2.jar:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-core/3.0.2/cxf-core-3.0.2.jar:/home/rtxn0378/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar:/home/rtxn0378/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/home/rtxn0378/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.1.0/xmlschema-core-2.1.0.jar:/home/rtxn0378/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/home/rtxn0378/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-rt-transports-http/3.0.2/cxf-rt-transports-http-3.0.2.jar:/home/rtxn0378/.m2/repository/org/apache/cxf/cxf-rt-rs-client/3.0.2/cxf-rt-rs-client-3.0.2.jar:/home/rtxn0378/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.6/jackson-core-asl-1.8.6.jar:/home/rtxn0378/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.6/jackson-mapper-asl-1.8.6.jar:/home/rtxn0378/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.6/jackson-jaxrs-1.8.6.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-web/3.2.6.RELEASE/spring-web-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-aop/3.2.6.RELEASE/spring-aop-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-beans/3.2.6.RELEASE/spring-beans-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-context/3.2.6.RELEASE/spring-context-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-expression/3.2.6.RELEASE/spring-expression-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/org/springframework/spring-core/3.2.6.RELEASE/spring-core-3.2.6.RELEASE.jar:/home/rtxn0378/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/rtxn0378/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/rtxn0378/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rtxn0378/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/rtxn0378/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/rtxn0378/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="/home/rtxn0378/workspace/accesscontrol/target/surefire/surefirebooter6635913676449080834.jar /home/rtxn0378/workspace/accesscontrol/target/surefire/surefire6320166489492808350tmp /home/rtxn0378/workspace/accesscontrol/target/surefire/surefire5136174140523177122tmp"/>
+    <property name="service.url" value="http://localhost:37531/jaxrs-service"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/rtxn0378/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.area515.security.accesscontrol.HelloWorldIT" name="testJsonRoundtrip" time="0.001"/>
+  <testcase classname="org.area515.security.accesscontrol.HelloWorldIT" name="testPing" time="0"/>
+</testsuite>
